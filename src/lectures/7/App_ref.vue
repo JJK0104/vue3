@@ -10,6 +10,7 @@ import { ref } from 'vue';
 
 export default {
 	setup() {
+		// const로 하면 안됨
 		let message = ref('Hello Vue!');
 
 		const addMessage = () => {
